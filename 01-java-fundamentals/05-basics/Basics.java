@@ -5,7 +5,7 @@ public class Basics {
     public static void main(String[] args) {
         // print255();
         // print255odd();
-        // printsum();
+        printsum();
         int[] arr1 = {-1,-3,-5,7,-59,-13};
         // iterateArray(arr1);
         // findMax(arr1);
@@ -19,7 +19,7 @@ public class Basics {
         // noNegative(arr3); // 1, 5, 10, 0
         int[] mma = maxMinAvg(arr3);
         // System.out.println(Arrays.toString(mma));
-        shiftLeft(arr3);
+        // shiftLeft(arr3);
     }
 // -----------------------------------------------------
 
@@ -55,7 +55,7 @@ public class Basics {
     public static void printsum() {
     int sum = 0;
     for (int i = 0; i <= 255; i++) {
-        sum = i + sum;
+        sum += i;
         System.out.println("New Number: " + i + " Sum: " + sum);
         }
     }
