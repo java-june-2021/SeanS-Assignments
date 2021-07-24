@@ -54,5 +54,4 @@ public class Language {
 		this.currentVersion = currentVersion;
 	}
 	
-	
 }
